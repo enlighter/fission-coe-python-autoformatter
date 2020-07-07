@@ -8,8 +8,7 @@ To use this, first you will need to create the docker image:
 - For your help, a helper script named *"build-docker.sh"* is present in this repository. Just run it : `./build-docker.sh`
 - That should create a new docker image named *"fission-python-autoformatter:latest"* in your machine.
 
-The auto-formatter when run on your Python files will edit the files directly and properly format the code according to its standards. So it is recommended that you
-test and commit your code before running the auto-formatter on it. That way you can revert back to the code state before it was auto-formatted.
+The auto-formatter when run on your Python files will edit the files directly and properly format the code according to its standards. So you may commit your code before running the auto-formatter on it. That way you can get a proper diff and can revert back to the code state before it was auto-formatted. Definitely test the code after running the auto-formatter.
 
 How to use this utility for auto-formatting code:
 - For your help, a automater script named *"run-autoformatter.sh"* is present in this repository.
